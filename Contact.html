@@ -1,0 +1,115 @@
+﻿<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv='Content-Type' content='text/html;charset=UTF-8' />
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1" name="viewport">
+    <title>Portfolio</title>
+    <meta content="Ein Portfolio über Leonie Caviezel und Svenja Stupar" name="description">
+    <meta content="Leonie und Svenja" name="author">
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Cousine:400,700' rel='stylesheet' type='text/css'>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/colour.css" rel="stylesheet">
+</head>
+<body>
+    <div id="header">
+        <div class="col-sm-12 col-lg-12">
+            <div class="row">
+                <div id="logo">
+                    <a href="index.html"><img class="logo" alt="" src="img/logo.png" data-rjs="2"></a>
+                </div>
+                <ul id="menu">
+                    <li><a class="scroll" href="index.html">Home</a></li>
+                    <li><a class="scroll" href="works.html">Arbeiten</a></li>
+                    <li><a class="scroll" href="contact.html">Kontakt</a></li>
+                </ul>
+                <div id="nav-toggle">
+                    <i class="typcn typcn-th-menu"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section id="home">
+        <div id="home-slider">
+            <ul class="slides">
+                <li>
+                    <div class="text-center slider-text">
+                        <i class="typcn typcn-device-desktop"></i>
+                    </div>
+                    <img class="slider-bg" alt="slider" src="img/banner2.jpg" />
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-lg-12">
+                    <div class="pad90"></div>
+
+                    <h1>Kontakt</h1>
+                    <div class="row">
+                        <div class="col-sm-6 col-lg-6 fadeinleftbig">
+                            <h2>Bei Fragen können Sie gerne Kontakt mit uns aufnehmen</h2>
+                            <p>
+                                Strass 1<br>
+                                Adresse kein plan
+                            </p>
+                            <ul>
+                                <li><a href="mailto:#">name@example.com</a></li>
+                                <li><a href="#">www.example.com</a></li>
+                                <li>+44 020 2345 1987</li>
+                            </ul>
+                        </div>
+
+                        <div class="col-sm-6 col-lg-6 fadeinrightbig">
+                            <div class="contact_form pad30">
+                                <div id="note"></div>
+                                <div id="fields">
+                                    <form id="ajax-contact-form" name="ajax-contact-form">
+                                        <input class="col-xs-12 col-md-12" name="name" placeholder="Name" type="text" value="">
+                                        <input class="col-xs-12 col-md-12" name="email" placeholder="E-Mail" type="text" value="">
+                                        <input class="col-xs-12 col-md-12" name="subject" placeholder="Betreff" type="text" value="">
+                                        <textarea class="col-xs-12 col-md-12" id="message" name="message" placeholder="Nachricht..."></textarea>
+                                        <br>
+                                        <input class="btn marg-right10" type="submit" value="Senden">
+                                        <input class="btn" type="reset" value="zurücksetzen">
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pad25"></div>
+        </div>
+    </section>
+    <footer>
+        <div class="center footer">
+            <a href="#home" class=" scroll">
+                <i class="typcn typcn-arrow-up-outline"></i>
+            </a>
+            <br>
+            <div id="copyright" class="bouncein">
+                &copy;
+                <script>
+                    var dteNow = new Date();
+                    var intYear = dteNow.getFullYear();
+                    document.write(intYear);
+                </script>
+                Leonie&Svenja | <a href="datenschutz.html">Datenschutz</a>
+            </div>
+        </div>
+    </footer>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.flexslider-min.js"></script>
+    <script src="js/smooth-scroll.js"></script>
+    <script src="js/fittext.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
+
