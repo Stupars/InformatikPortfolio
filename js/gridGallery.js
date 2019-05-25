@@ -584,18 +584,18 @@
             var D = t('<div class="autoGrid-lightbox" />').appendTo(O);
             var P = t('<div class="autoGrid-nav" />').appendTo(D);
             var H = t('<div class="autoGrid-close" />').appendTo(P);
-            var B = t('<i class="iconClose" />').appendTo(H);
+            var B = t('<i class="fas fa-close" />').appendTo(H);
             var j = t('<div class="autoGrid-play" />');
             if (s.lightboxPlayBtn) {
                 j.appendTo(P)
             }
-            var F = t('<i class="fas fa-play" />').appendTo(j);
-            var I = t('<div class="autoGrid-lbcaption" />').appendTo(P).html("Here will go the text for the lightbox");
-            var q = t('<div class="autoGrid-next" />').appendTo(P);
-            var R = t('<i class="fas fa-chevron-right" />').appendTo(q);
-            var U = t('<div class="autoGrid-prev" />').appendTo(P);
-            var z = t('<i class="fas fa-chevron-left" />').appendTo(U);
-            var W = t('<div class="lightbox-timer" />').appendTo(D);
+            var F = t('').appendTo(j);
+            var I = t('').appendTo(P).html("Here will go the text for the lightbox");
+            var q = t('').appendTo(P);
+            var R = t('').appendTo(q);
+            var U = t('').appendTo(P);
+            var z = t('').appendTo(U);
+            var W = t('').appendTo(D);
             var X = H.width();
             var V = 3;
             if (s.lightboxPlayBtn) V = 4;
